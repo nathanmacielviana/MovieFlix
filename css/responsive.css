@@ -1,0 +1,20 @@
+/* Media Query para telas maiores que 768px (Desktop) */
+@media (min-width: 768px) 
+{
+    header nav ul{gap: 50px;}
+    header input{ width: 300px;}
+    #movie-list{justify-content: space-around;}
+    .movie{width: 220px;}
+}
+  
+  /* Media Query para telas menores que 768px (Mobile) */
+  @media (max-width: 767px)
+  {
+    header nav ul{flex-direction: column; gap: 15px;}
+    header input { width: 80%; margin-top: 20px;}
+    #movie-list{flex-direction: column; margin: 20px 0;}
+    .movie{width: 90%; margin: 10px auto; }
+    footer .contato{font-size: 14px;}
+    footer .contato p {margin: 10px 0;}
+  }
+  
